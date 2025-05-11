@@ -2,7 +2,7 @@
 
 # / means it starts looking from root i.e. the whole filesystem, xdev is to avoid crossing into mounted filesystems
 # -0002 is perms where others write bit is set (o+w)
-
+#
 
 RED='\033[0;31m'    # Red (High)
 YELLOW='\033[0;33m' # Yellow (Medium)
