@@ -79,6 +79,12 @@ Select an option:
 
 ## 💡 Customization
 
+Each script is modular and can be run independently. Most are adaptable for different environments (e.g., server-only systems or containers), though a few may require small tweaks depending on system configuration.
+
+
+
+
+
 Each script is modular and can be run independently or modified for specific environments (e.g., server-only checks, container audits).
 
 ---
