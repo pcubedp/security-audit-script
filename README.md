@@ -1,30 +1,29 @@
-# 🛡️ Linux Security Audit Toolkit
+# Linux Security Audit Toolkit
 
 A modular and extensible **Linux Security Audit Toolkit** written in Bash. This toolkit helps you quickly identify potential security misconfigurations and vulnerabilities on your Linux system through automated scans.
 
-- Along with tons of comments I have added in the process of learning about bash and linux systems, please explore the scripts and share your thoughts, learnings and maybe pull requests too :)
 ---
 
-## 📋 Features
+## Features
 
 The toolkit currently includes the following modules:
 
 | Feature                        | Description                                                   |
 |-------------------------------|---------------------------------------------------------------|
-| ✅ Password Policy Audit       | System-wide password aging policy, checks time since changed  |
-| ✅ User Account Audit          | Detects inactive, duplicate, or privileged users              |
-| ✅ World-Writable Files Audit  | Finds files with world-writable permissions                   |
-| ✅ SUID/SGID Files Audit       | Locates files with SUID or SGID set and ranks severity        |
-| ✅ Open Ports Audit            | Lists open and listening ports with associated processes      |
-| ✅ Running Processes Audit     | Flags suspicious or high-privilege running processes          |
-| ✅ Cron Jobs Audit             | Audits cron jobs for all users and system-wide configurations |
-| ✅ SSH Config Audit            | Analyzes sshd_config for insecure parameters                  |
+| Password Policy Audit       | System-wide password aging policy, checks time since changed  |
+| User Account Audit          | Detects inactive, duplicate, or privileged users              |
+| World-Writable Files Audit  | Finds files with world-writable permissions                   |
+| SUID/SGID Files Audit       | Locates files with SUID or SGID set and ranks severity        |
+| Open Ports Audit            | Lists open and listening ports with associated processes      |
+| Running Processes Audit     | Flags suspicious or high-privilege running processes          |
+| Cron Jobs Audit             | Audits cron jobs for all users and system-wide configurations |
+| SSH Config Audit            | Analyzes sshd_config for insecure parameters                  |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 Requirements
+### Requirements
 
 - Bash (>= 4.x)
 - `awk`, `grep`, `find`, `ss`, `ps`, and standard GNU/Linux core utilities
@@ -32,7 +31,7 @@ The toolkit currently includes the following modules:
 
 ---
 
-### 📦 Installation
+### Installation
 
 ```bash
 git clone https://github.com/pcubedp/security-audit-script.git
@@ -43,7 +42,7 @@ chmod +x run-audit.sh
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 Run the main script to start the audit:
 
@@ -69,7 +68,7 @@ Select an option:
 
 ---
 
-## 🔒 Security Notes
+## Security Notes
 
 * The scripts do not make any changes to your system.
 * Review the output carefully to identify potential security risks.
@@ -77,7 +76,7 @@ Select an option:
 
 ---
 
-## 💡 Customization
+## Customization
 
 Each script is modular and can be run independently. Most are adaptable for different environments (e.g., server-only systems or containers), though a few may require small tweaks depending on system configuration.
 
