@@ -11,7 +11,7 @@ The toolkit currently includes the following modules:
 
 | Feature                        | Description                                                   |
 |-------------------------------|---------------------------------------------------------------|
-| ✅ Password Policy Audit       | Checks password strength policies like min length & complexity|
+| ✅ Password Policy Audit       | System-wide password aging policy, checks time since changed  |
 | ✅ User Account Audit          | Detects inactive, duplicate, or privileged users              |
 | ✅ World-Writable Files Audit  | Finds files with world-writable permissions                   |
 | ✅ SUID/SGID Files Audit       | Locates files with SUID or SGID set and ranks severity        |
