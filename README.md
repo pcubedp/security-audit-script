@@ -2,6 +2,8 @@
 
 A modular and extensible **Linux Security Audit Toolkit** written in Bash. This toolkit helps you quickly identify potential security misconfigurations and vulnerabilities on your Linux system through automated scans.
 
+(P.S. Yes, there are a lot of comments. Future me (and maybe you) will thank me :P)
+
 ---
 
 ## Features
